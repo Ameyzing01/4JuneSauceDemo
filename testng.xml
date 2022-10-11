@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MevenSauceDemo">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.SauceDemo.TestClass.TC_01VerifyTheLoginfFunctionality"/>
+      <class name="com.SauceDemo.TestClass.TC_02VerifyLoginFunctionalitybByPassingInvalidUsernameAndInvalidPassword"/>
+      <class name="com.SauceDemo.TestClass.TC_03VerifyWhetherWeAreAbleToSelectTheProductOrNot"/>
+      <class name="com.SauceDemo.TestClass.TC_04VerifyWhetherWeAreAbleToAddToProductToCartOrNot"/>
+      <class name="com.SauceDemo.TestClass.TC_05VerifyWhetherWeAreAbleToBuyTheProductOrNot"/>
+      <class name="com.SauceDemo.TestClass.TC_06VerifyWhetherWeAreAbleToProceedForCheckoutOrNot"/>
+      <class name="com.SauceDemo.TestClass.TC_07VerifyTheLogoutFunctionality"/>
+      <class name="com.SauceDemo.TestClass.TC_08VerifyWhetherWeAreAbleToApplyTheFilter"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
